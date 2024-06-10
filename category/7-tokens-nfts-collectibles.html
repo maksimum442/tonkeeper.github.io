@@ -1,0 +1,394 @@
+
+
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <meta charset="utf-8"/>
+    <title>NFTs &amp; Tokens - Questions and answers about Tonkeeper</title>
+    <meta name="viewport" content="width=device-width, maximum-scale=1"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="Common questions and support documentation"/>
+    <meta name="author" content="Tonkeeper"/>
+    <link rel="canonical" href="7-tokens-nfts-collectibles.html"/>
+    
+
+    
+        <link rel="stylesheet" href="https://d3eto7onm69fcz.cloudfront.net/assets/stylesheets/launch-1712150726139.css">
+    
+    <style>body { background: #ffffff; }
+        .navbar .navbar-inner { background: #2c323d; }
+        .navbar .nav li a, 
+        .navbar .icon-private-w  { color: #c0c0c0; }
+        .navbar .brand, 
+        .navbar .nav li a:hover, 
+        .navbar .nav li a:focus, 
+        .navbar .nav .active a, 
+        .navbar .nav .active a:hover, 
+        .navbar .nav .active a:focus  { color: #ffffff; }
+        .navbar a:hover .icon-private-w, 
+        .navbar a:focus .icon-private-w, 
+        .navbar .active a .icon-private-w, 
+        .navbar .active a:hover .icon-private-w, 
+        .navbar .active a:focus .icon-private-w { color: #ffffff; }
+        #serp-dd .result a:hover,
+        #serp-dd .result > li.active,
+        #fullArticle strong a,
+        #fullArticle a strong,
+        .collection a,
+        .contentWrapper a,
+        .most-pop-articles .popArticles a,
+        .most-pop-articles .popArticles a:hover span,
+        .category-list .category .article-count,
+        .category-list .category:hover .article-count { color: #4381b5; }
+        #fullArticle, 
+        #fullArticle p, 
+        #fullArticle ul, 
+        #fullArticle ol, 
+        #fullArticle li, 
+        #fullArticle div, 
+        #fullArticle blockquote, 
+        #fullArticle dd, 
+        #fullArticle table { color:#585858; }
+    </style>
+    
+        <link rel="stylesheet" href="https://keeper-helpscout.fra1.cdn.digitaloceanspaces.com/custom.css">
+    
+    <link rel="apple-touch-icon-precomposed" href="https://d33v4339jhl8k0.cloudfront.net/docs/assets/645d1454fca3ee03251ffb08/images/645e3c1a4b0cb77d730831bf/icon-192.png">
+    <link rel="shortcut icon" type="image/png" href="https://d33v4339jhl8k0.cloudfront.net/docs/assets/645d1454fca3ee03251ffb08/images/645e3c1a4a9507484a8729f5/favicon-32.png">
+    <!--[if lt IE 9]>
+    
+        <script src="//d3eto7onm69fcz.cloudfront.net/assets/javascripts/html5shiv.min.js"></script>
+    
+    <![endif]-->
+    
+        <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"WebSite","url":"https://tonkeeper.helpscoutdocs.com","potentialAction":{"@type":"SearchAction","target":"https://tonkeeper.helpscoutdocs.com/search?query={query}","query-input":"required name=query"}}
+        </script>
+    
+        <script type="application/ld+json">
+        {"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Questions and answers about Tonkeeper","item":"https://tonkeeper.helpscoutdocs.com"},{"@type":"ListItem","position":2,"name":"How it works?","item":"https://tonkeeper.helpscoutdocs.com/collection/1-how-it-works"},{"@type":"ListItem","position":3,"name":"NFTs & Tokens","item":"https://tonkeeper.helpscoutdocs.com/category/7-tokens-nfts-collectibles"}]}
+        </script>
+    
+    
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=no,viewport-fit=cover" />
+<meta property="og:image" content="https://ddejfvww7sqtk.cloudfront.net/faq-assets/tonkeeper/imgs/snippet.png">
+<script>
+  const PAGE_CLASS_NAMES = ['home', 'category', 'article', 'search'];
+
+  function replaceHeaderLogoUrl() {
+    const homeEl = document.querySelector('#mainNav #home a');
+    const brandEl = document.querySelector('#mainNav a.brand');
+
+    if (!homeEl || !brandEl) {
+      return;
+    }
+
+    brandEl.setAttribute('href', homeEl.getAttribute('href'));
+  }
+
+  function getPageClassName() {
+    const page = window.location.pathname.slice(1,).split('/')[0];
+
+    if (PAGE_CLASS_NAMES.indexOf(page) !== -1) {
+      return page;
+    }
+  }
+
+  function changeArticleFooterPlace() {
+    const footerEl = document.querySelector('.articleFoot');
+    const ratingsEl = document.querySelector('.articleRatings');
+
+    if (footerEl && ratingsEl && footerEl.parentElement) {
+      footerEl.parentElement.insertBefore(footerEl, ratingsEl);
+    }
+  }
+
+  function makeSidebarSticky() {
+    const sidebarEl = document.getElementById('sidebar');
+
+    if (!sidebarEl || sidebarEl.offsetTop + sidebarEl.offsetHeight >= window.innerHeight) {
+      return;
+    }
+
+    sidebarEl.classList.add('sidebar--sticky');
+  }
+
+  function getOtherLangUrl(lang) {
+    const langUrl = (isEnVersion() || lang === 'ru') ? 'https://tonkeeperru.helpscoutdocs.com' : '//tonkeeper.helpscoutdocs.com';
+
+    return langUrl + '?scheme=' + document.querySelector('html').dataset.theme;
+  }
+
+  function addLangToggle(lang) {
+    const navEl = document.querySelector('ul.nav');
+
+    if (!navEl || document.getElementById('lang')) {
+      return;
+    }
+
+    const toggleEl = document.createElement('li');
+    const langShort = lang === 'ru' ? 'ru' : 'en';
+
+    toggleEl.id = 'lang';
+    toggleEl.innerHTML = '<a href="https://tonkeeper.helpscoutdocs.com/category/'&#32;+&#32;getOtherLangUrl()&#32;+&#32;'"><svg width="16" height="16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15 8A7 7 0 1 1 1 8a7 7 0 0 1 14 0zm-5.266.75C9.617 11.433 8.886 13.5 8 13.5s-1.617-2.067-1.734-4.75h3.468zm1.501 0c-.053 1.347-.251 2.598-.568 3.594a7.533 7.533 0 0 1-.21.578A5.505 5.505 0 0 0 13.45 8.75h-2.214zm2.214-1.5h-2.214c-.053-1.347-.251-2.598-.568-3.594a7.538 7.538 0 0 0-.21-.578A5.505 5.505 0 0 1 13.45 7.25zm-3.715 0H6.266C6.383 4.568 7.114 2.5 8 2.5c.885 0 1.617 2.067 1.734 4.75zm-4.97 0c.055-1.347.252-2.598.57-3.594.061-.194.13-.388.208-.578A5.505 5.505 0 0 0 2.551 7.25h2.214zm-2.213 1.5a5.505 5.505 0 0 0 2.991 4.172 7.517 7.517 0 0 1-.209-.578c-.317-.996-.514-2.247-.568-3.594H2.55z" fill="currentColor"></path></svg><span>' + langShort + '</span></a>';
+
+    navEl.appendChild(toggleEl);
+  }
+
+  function isEnVersion() {
+    return window.location.hostname === 'tonkeeper.helpscoutdocs.com';
+  }
+
+  function isRuVersion() {
+    return window.location.hostname === 'tonkeeperru.helpscoutdocs.com';
+  }
+
+  function changeRuCountableArticleForm(wrapEl, countEl) {
+    if (!wrapEl || !countEl) {
+      return;
+    }
+
+    const count = countEl.innerText;
+    const lastCountDigit = count[count.length - 1];
+
+    if (lastCountDigit === '2' || lastCountDigit === '3' || lastCountDigit === '4') {
+      wrapEl.innerHTML = wrapEl.innerHTML.replace('статей', 'статьи');
+    }
+  }
+
+  function replaceArticleFormPage(wrapSelector, countSelector) {
+    const wrapEls = document.querySelectorAll(wrapSelector);
+
+    Array.from(wrapEls).forEach((wrapEl) => {
+      const countEl = wrapEl.querySelector(countSelector);
+
+      changeRuCountableArticleForm(wrapEl, countEl);
+    });
+  }
+
+  function replaceArticleFormAtHomePage() {
+    replaceArticleFormPage('.article-count', 'span');
+  }
+
+  function replaceArticleFormAtSearchPage() {
+    replaceArticleFormPage('.articlesFound', 'strong');
+  }
+
+  function wrapSearchResultInLink() {
+    const searchedArticles = document.querySelectorAll('#serp .articleList > li');
+
+    Array.from(searchedArticles).forEach((searchedArticle) => {
+      const articleTitle = searchedArticle.querySelector('a');
+      const articleDescr = searchedArticle.querySelector('a + p');
+
+      searchedArticle.classList.add('articleItem');
+
+      if (articleTitle && articleDescr) {
+        articleTitle.innerHTML = `<div class="articleItemTitle">${articleTitle.innerHTML}</div>`
+        articleTitle.appendChild(articleDescr);
+      }
+    });
+  }
+
+  const bodyPageClassName = getPageClassName();
+
+  document.addEventListener("DOMContentLoaded", () => {
+    replaceHeaderLogoUrl();
+    addLangToggle(isEnVersion() ? 'ru' : 'en');
+
+    if (bodyPageClassName) {
+      document.body.classList.add(bodyPageClassName + '-page');
+      document.body.classList.add('internal-page');
+    }
+
+    changeArticleFooterPlace();
+    makeSidebarSticky();
+
+    if (window.location.pathname === '/search') {
+      if (!document.querySelector('.articlesFound')) {
+        document.querySelector('.contentWrapper').classList.add('contentWrapper--no-results');
+      } else {
+        wrapSearchResultInLink();
+      }
+    }
+
+    if (isRuVersion()) {
+      replaceArticleFormAtHomePage();
+      replaceArticleFormAtSearchPage();
+    }
+  });
+</script>
+    
+</head>
+    
+    <body>
+        
+<header id="mainNav" class="navbar">
+    <div class="navbar-inner">
+        <div class="container-fluid">
+            <a class="brand" href="https://tonkeeper.tech/">
+            
+                <span>Questions and answers about Tonkeeper</span>
+            
+            </a>
+            
+                <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                    <span class="sr-only">Toggle Navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            
+            <div class="nav-collapse collapse">
+                <nav role="navigation"><!-- added for accessibility -->
+                <ul class="nav">
+                    
+                        <li id="home"><a href="../index.html">All Categories <b class="caret"></b></a></li>
+                    
+                    
+                    
+                </ul>
+                </nav>
+            </div><!--/.nav-collapse -->
+        </div><!--/container-->
+    </div><!--/navbar-inner-->
+</header>
+        <section id="contentArea" class="container-fluid">
+            <div class="row-fluid">
+                <section id="main-content" class="span9">
+                    <div class="contentWrapper">
+                        
+    <hgroup id="categoryHead">
+        <h1>NFTs &amp; Tokens</h1>
+        <p class="descrip"></p>
+        <div class="sort">
+             
+
+<form action="7-tokens-nfts-collectibles.html" method="GET" >
+    
+                <select name="sort" id="sortBy" title="sort-by" onchange="this.form.submit();" aria-label="Page reloads on selection">
+                    
+                        <option value="" >Sort by Default</option>
+                    
+                        <option value="name" >Sort A-Z</option>
+                    
+                        <option value="popularity" >Sort by Popularity</option>
+                    
+                        <option value="updatedAt" >Sort by Last Updated</option>
+                    
+                </select>
+            
+</form>
+
+        </div>
+    </hgroup><!--/categoryHead-->
+
+    
+        <ul class="articleList">
+            
+                <li><a href="../article/47-how-to-send-nft-to-another-wallet.html"><i class="icon-article-doc"></i><span>How to send NFT to another wallet?</span></a></li>
+            
+                <li><a href="../article/36-tokens-visibility.html"><i class="icon-article-doc"></i><span>NFTs and tokens visibility</span></a></li>
+            
+        </ul><!--/articleList-->
+
+        
+    
+
+                    </div><!--/contentWrapper-->
+                    
+                </section><!--/content-->
+                <aside id="sidebar" class="span3">
+                 
+
+<form action="https://tonkeeper.helpscoutdocs.com/search" method="GET" id="searchBar" class="sm" autocomplete="off">
+    
+                    <input type="hidden" name="collectionId" value="645d14a99a2fac195e6085bd"/>
+                    <input type="text" name="query" title="search-query" class="search-query" placeholder="Search" value="" aria-label="Search" />
+                    <button type="submit">
+                        <span class="sr-only">Toggle Search</span>
+                        <i class="icon-search"></i>
+                    </button>
+                    <div id="serp-dd" style="display: none;" class="sb">
+                        <ul class="result">
+                        </ul>
+                    </div>
+                
+</form>
+
+                
+                    
+                    <ul class="nav nav-list">
+                    
+                        
+                            <li ><a href="4-getting-started-withtonkeeper.html">About Tonkeeper  <i class="icon-arrow"></i></a></li>
+                        
+                    
+                        
+                            <li ><a href="5-what-is-the-opennetwork.html">Crypto Basics  <i class="icon-arrow"></i></a></li>
+                        
+                    
+                        
+                            <li  class="active" ><a href="7-tokens-nfts-collectibles.html">NFTs &amp; Tokens  <i class="icon-arrow"></i></a></li>
+                        
+                    
+                        
+                            <li ><a href="8-all-aboutsafety.html">Safe Transaction  <i class="icon-arrow"></i></a></li>
+                        
+                    
+                        
+                            <li ><a href="9-most-frequent-errors-how-to-solve-it.html">Troubleshooting  <i class="icon-arrow"></i></a></li>
+                        
+                    
+                        
+                            <li ><a href="6-how-to-usetonkeeper.html">FAQ  <i class="icon-arrow"></i></a></li>
+                        
+                    
+                    </ul>
+                
+                </aside><!--/span-->
+            </div><!--/row-->
+            <div id="noResults" style="display:none;">No results found</div>
+            <footer>
+                
+
+<p>&copy;
+    
+        <a href="https://tonkeeper.tech/">Tonkeeper</a>
+    
+    2024. <span>Powered by <a rel="nofollow noopener noreferrer" href="https://www.helpscout.com/knowledge-base/?co=Tonkeeper&amp;utm_source=docs&amp;utm_medium=footerlink&amp;utm_campaign=Docs+Branding" target="_blank">Help Scout</a></span>
+    
+        
+    
+</p>
+
+            </footer>
+        </section><!--/.fluid-container-->
+        
+        
+    <script src="https://d3eto7onm69fcz.cloudfront.net/assets/javascripts/app3.min.js"></script>
+
+<script>
+// keep iOS links from opening safari
+if(("standalone" in window.navigator) && window.navigator.standalone){
+// If you want to prevent remote links in standalone web apps opening Mobile Safari, change 'remotes' to true
+var noddy, remotes = false;
+document.addEventListener('click', function(event) {
+noddy = event.target;
+while(noddy.nodeName !== "A" && noddy.nodeName !== "HTML") {
+noddy = noddy.parentNode;
+}
+
+if('href' in noddy && noddy.href.indexOf('http') !== -1 && (noddy.href.indexOf(document.location.host) !== -1 || remotes)){
+event.preventDefault();
+document.location.href = noddy.href;
+}
+
+},false);
+}
+</script>
+        
+    </body>
+</html>
